@@ -37,7 +37,7 @@ Response in the browser:
 ### Parameters
 
 - `-Port` (optional): The port number on which the HTTP server listens. Default is `13824`.
-- `-Ip` (optional): The IP address on which the HTTP server listens. Default is `localhost`.
+- `-Ip` (optional): The IP address on which the HTTP server listens. Default is `localhost`. Wildcard (*) can be used to listen on all interfaces.
 - `-HttpTimeout` (optional): The duration in seconds for which the HTTP server will run before shutting down automatically. Set to `0` to run indefinitely (Default).
 
 ### Examples
