@@ -42,11 +42,11 @@ Response in the browser:
 
 ### Examples
 
-#### Example 1: Start an HTTP server with default settings (localhost, port 13824, and a timeout of 60 seconds)
+#### Example 1: Start an HTTP server with default settings (localhost, port 13824, and no timeout)
 ```powershell
 Invoke-HttpServer
 ```
-This will start an HTTP server on IP `localhost` and port `13824`. The server will run for 60 seconds before shutting down.
+This will start an HTTP server on IP `localhost` and port `13824`. The server will run forever.
 
 #### Example 2: Start an HTTP server on port 8080 with a timeout of 120 seconds and listening on all interfaces
 ```powershell
